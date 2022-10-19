@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030331;  
+}
+
+.logo > img{
+  width: 70px;
+}
+
+.card {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #1F4E8C, #194078, white);
+  border: solid #fff 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 8px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.container > .nfc {
+  width: 64px;
+  filter: invert(1);
+}
+.container > .chip {
+  width: 64px;
+  border-radius: 10px;
+  border: groove 2px #6aa5db; 
+}
+.container > h2 {
+  font-size: 30px;
+  margin-left: 16px;
+  color: #fff;
+}
+
+.dass {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+.information .logo {
+  width: 50%;
+  justify-content: left;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 25px 0 0 5px;
+}
+.information > h3 {
+  font-size: 25px;
+  color: #030331;
+}
+.information > h4 {
+  font-size: 15px;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0 10px 0 0;
+}
